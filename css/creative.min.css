@@ -6,7 +6,7 @@
 * { box-sizing: border-box; }
 .header-content {
   background: #000;
-  position: fixed;
+  position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
   z-index: -99;
 }
@@ -26,6 +26,7 @@
   .video-foreground { width: 300%; left: -100%; }
 }
 .header-content-inner{
-	position: fixed
-	
+	position: relative;
+	z-index: 1;
+	margin: auto;
 }
